@@ -80,7 +80,7 @@ if (bio.skills.length>0){
 
 }
 
-if (education.school.length>0){
+if (education.length>0){
   $("#education").append(HTMLschoolStart);
   for(list in education){
     if (education[list].length>0){
